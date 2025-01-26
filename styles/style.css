@@ -1,1 +1,235 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    align-content: center;
+    height: 293px;
+    font-size: 18px;
+    padding: 92px 50px 96px;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+}
+
+.header__menu {
+    align-content: center;
+}
+
+.header__links-list {
+    display: flex;
+    width: 392px;
+    justify-content: space-between;
+}
+
+.header__links-list-item {
+    list-style-type: circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.address {
+    width: 240px;
+    justify-self: end;
+    align-self: center;
+    line-height: 1.35;
+    font-style: normal;
+}
+
+.header__logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.header__logo-image {
+    width: 148px;
+    height: 105px;
+}
+
+.content {
+    display: block;
+}
+
+.cover {
+    position: relative;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 165px 50px 50px;
+    height: 757px;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.cover__title {
+    position: relative;
+    width: 100%;
+    height: 385px;
+    color: #fff;
+    font-size: 100px;
+    line-height: 1.15;
+    letter-spacing: 30px;
+    font-family: Raleway, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.aligned-text {
+    display: block;
+    height: 135px;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+
+.description {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    margin-top: 106px;
+    color: #fff;
+    font-family: Raleway, serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover__description-text {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1.27;
+}
+
+.bet-button {
+    background: none;
+    color: #fff;
+    border-style: none;
+    border: 1px solid #fff;
+    width: 256px;
+    height: 51px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.lots {
+    width: 1052px;
+    height: 723px;
+    margin: 180px 24px 0;
+}
+
+.lots__heading {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.lots__card-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.lots__card-list-item {
+    width: 335px;
+    min-height: 596px;    
+}
+
+.card-link {
+    display: block;
+    height: 100%;
+
+}
+
+.card {
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    padding: 48px 40px;
+}
+
+.card__title {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration-skip-ink: none;
+    line-height: 1.2;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lots__look-more-link {
+    display: block;
+    width: 192px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+
+.no-letter-spacing {
+    margin-right: -30px;
+}
+
+.letter-spacing-extended {
+    word-spacing: 20px;
+}
+
+.text__style-underline {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    font-family: Raleway, sans-serif;
+}
+
+
