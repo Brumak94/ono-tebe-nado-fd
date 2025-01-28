@@ -138,6 +138,7 @@
 .lots__card-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 26px;
     list-style-type: none;
 }
@@ -150,6 +151,7 @@
 .card-link {
     display: block;
     height: 100%;
+    text-decoration: none;
 }
 
 .card {
@@ -324,7 +326,6 @@ align-text. Хотел бы подробнее обсудить этот мом�
 
 
 .text__underline {
-    text-decoration: none;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
