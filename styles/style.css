@@ -216,7 +216,7 @@
     margin: 120px 24px 180px;
 }
 
-.about__column-first {
+.about__column-logo {
     justify-items: center;
     padding-top: 36px;
 }
@@ -236,7 +236,7 @@
     height: 114px;
 }
 
-.about__column-second {
+.about__column-description {
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
