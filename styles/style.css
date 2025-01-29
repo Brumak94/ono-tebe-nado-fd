@@ -115,7 +115,6 @@
 .bet-button {
     width: 256px;
     height: 51px;
-    border-style: none;
     border: 1px solid currentColor;
     color: #fff;
     font-size: 22px;
@@ -137,8 +136,9 @@
 
 .lots__card-list {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 25px;
     margin-top: 26px;
     list-style-type: none;
 }
@@ -210,7 +210,6 @@
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
-    grid-template-rows: 596px 1fr;
     gap: 0px 25px;
     width: 1052px;
     margin: 120px 24px 180px;
@@ -241,6 +240,7 @@
     grid-row-start: 1;
     grid-row-end: 3;
     align-content: end;
+    padding-top: 136px;
 }
 
 .about__title {
